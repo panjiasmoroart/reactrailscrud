@@ -1,0 +1,44 @@
+React CRUD Example
+
+1. Now, install the Bootstrap 4 Framework using the following command. 
+
+   npm install bootstrap --save
+
+   # Import the Bootstrap CSS Framework inside our project.
+     Modify the code inside the src >> App.js file.
+
+     import 'bootstrap/dist/css/bootstrap.min.css';
+
+2. Configure React routing
+
+   yarn add react-router-dom
+
+   # or
+
+   npm install react-router-dom --save
+
+3. Go to the index.js file and Wrap the BrowserRouter object around the App.js component. (reactjs < 16.7.0 )
+
+
+4. Now, create three components.
+   Inside the src folder, create one directory called components and inside that folder, make three components.
+
+   create.component.js
+   edit.component.js
+   index.component.js
+
+5. Install Axios library and send a POST request
+   https://appdividend.com/2018/08/30/getting-started-with-axios-tutorial-example/
+
+   Getting Started With Axios Promise Based HTTP Client Tutorial Example article.
+
+   yarn add axios
+
+   # or
+
+   npm install axios --save     
+
+   
+  
+
+

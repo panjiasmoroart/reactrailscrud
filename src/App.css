@@ -1,0 +1,27 @@
+/* custom bootstrap*/
+
+.bg-nav-custom {
+  background-color: #404040;
+}
+
+
+.navbar-light .navbar-brand {
+  color: #ececec;
+}
+
+.navbar-light a.navbar-brand:hover, a.navbar-brand.active{
+  color: #e67a2e;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #ececec;
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #e67a2e;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ececec;
+}
